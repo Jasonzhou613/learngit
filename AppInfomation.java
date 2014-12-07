@@ -3,9 +3,9 @@ package com.andsos.jutility.common;
 import android.content.Context;
 
 /**
- * »ñÈ¡Ó¦ÓÃµÄ°æ±¾ºÅºÍ°æ±¾´úÂë<br/>
- * {@link #getVersionName()}·½·¨µÃµ½Ó¦ÓÃµÄVersion name<br/>
- * {@link #getVersionCode()}·½·¨µÃµ½Ó¦ÓÃµÄVersion code
+ * è·å–åº”ç”¨çš„ç‰ˆæœ¬å·å’Œç‰ˆæœ¬ä»£ç <br/>
+ * {@link #getVersionName()}æ–¹æ³•å¾—åˆ°åº”ç”¨çš„Version name<br/>
+ * {@link #getVersionCode()}æ–¹æ³•å¾—åˆ°åº”ç”¨çš„Version code
  * 
  * @version 1.0.1
  * @author Jason
@@ -21,7 +21,7 @@ public class AppInfomation {
 	}
 
 	/**
-	 * µÃµ½Ó¦ÓÃ³ÌĞòµÄ°üÃû
+	 * å¾—åˆ°åº”ç”¨ç¨‹åºçš„åŒ…å
 	 * 
 	 * @return
 	 */
@@ -30,9 +30,9 @@ public class AppInfomation {
 	}
 
 	/**
-	 * µÃµ½Ó¦ÓÃµÄversion name,Èç£º1.0.0
+	 * å¾—åˆ°åº”ç”¨çš„version name,å¦‚ï¼š1.0.0
 	 * 
-	 * @return version name,·¢ÉúÒì³£Ê±·µ»Ønull;
+	 * @return version name,å‘ç”Ÿå¼‚å¸¸æ—¶è¿”å›null;
 	 */
 	public String getVersionName() {
 		String versionname = null;
@@ -53,9 +53,9 @@ public class AppInfomation {
 	}
 
 	/**
-	 * µÃµ½Ó¦ÓÃµÄversion code,Èç£º131125
+	 * å¾—åˆ°åº”ç”¨çš„version code,å¦‚ï¼š131125
 	 * 
-	 * @return version code,·¢ÉúÒì³£Ê±·µ»Ø-1
+	 * @return version code,å‘ç”Ÿå¼‚å¸¸æ—¶è¿”å›-1
 	 */
 	public int getVersionCode() {
 		int versioncode = -1;
