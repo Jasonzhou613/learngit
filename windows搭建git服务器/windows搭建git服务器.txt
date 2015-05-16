@@ -1,0 +1,8 @@
+1. 所需工具
+msysgit: http://git-scm.com/downloa
+copssh: https://www.itefix.net/content/copssh-free-edition
+
+2.安装参考:
+http://blog.csdn.net/marcus_x/article/details/11709461
+英文原版地址
+http://www.codeproject.com/Articles/296398/Step-by-Step-Setup-Git-Server-on-Windows-with-CopS
