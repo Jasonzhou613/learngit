@@ -1,0 +1,7 @@
+#如果git服务器修改了默认的端口，怎把下面的内容加入到C:\Users\用户名\.ssh的config文件中
+#如果没有这个文件则直接把这个文件复制到C:\Users\用户名\.ssh文件夹中
+
+# 本地git
+host localgit
+hostname 192.168.0.150
+port 59878
